@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"> Ingenieria RTH </string>
+    <string name="option">  Selecciona una opcion </string>
+
+    <string name="app_foldername">RadioTelevision</string>
+    <string name="pictures_folder">Fotos</string>
+</resources>

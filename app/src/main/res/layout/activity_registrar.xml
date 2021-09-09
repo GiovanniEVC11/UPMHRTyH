@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityControl.LoginActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            style="@style/appThemeActivity.AppStyleForm">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/btnUserIv"
+                android:src="@drawable/ic_account_circle" />
+
+            <EditText
+                android:id="@+id/nombreID"
+                style="@style/styleForm"
+                android:drawableLeft="@drawable/ic_user"
+                android:hint="Nombre del usuario"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/correoID"
+                style="@style/styleForm"
+                android:drawableLeft="@drawable/ic_email"
+                android:hint="Correo Electrónico"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passwordID"
+                style="@style/styleForm"
+                android:drawableLeft="@drawable/ic_password"
+                android:hint="Introducir Contraseña"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/password2ID"
+                style="@style/styleForm"
+                android:drawableLeft="@drawable/ic_password"
+                android:hint="Repetir Contraseña"
+                android:inputType="textPassword" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnRegisterUserCv"
+                style="@style/btnMainCv">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Registrar Cuenta"
+                        android:textColor="@color/whiteColor" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00365c</color> <!-- Color para el fondo principal de la aplicación   primaryDarkColor3-->
+    <color name="colorPrimaryDark">#092432</color>  <!-- Color de barra de notificaciones -->
+    <color name="colorAccent">#D81B60</color>  <!-- Color de acentuación solo para ciertos elementos especificos del sistema que no sean muy comunes -->
+
+    <!-- Colores para el texto  -->
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+
+    <!-- Color de RTH: Lo usa el login  -->
+    <color name="primaryColor">#003b5e</color>
+    <color name="secondaryColor">#c1d5e0</color>
+
+    <!-- Color de lista de usuarios  -->
+    <color name="primaryLightColor">#4d8db9</color> <!-- C CardViews usuarios -->
+
+    <color name="primaryColor2">#0a6089</color>
+    <color name="secondaryColor3">#009999</color>
+
+</resources>

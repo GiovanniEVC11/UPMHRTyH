@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.adnroid.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuToolBar1"
+        android:title="Configuración"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menuToolBar1_1"
+                android:title="App"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/menuToolBar1_2"
+                android:title="Plataforma"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuToolBar2"
+        android:title="Perfil"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuToolBar3"
+        android:title="Cerrar Sesión"
+        app:showAsAction="ifRoom" />
+
+</menu>

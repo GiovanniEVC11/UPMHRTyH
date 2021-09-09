@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Temas de Activities -->
+
+    <style name="appThemeActivity">
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="appThemeLightActivity">
+        <item name="android:background">@color/whiteColor</item>
+    </style>
+
+    <!-- Estilos de Elementos -->
+
+    <!--  ImageView de Usuario como representación -->
+    <style name="btnUserIv">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">130dp</item>
+    </style>
+
+    <!--  Boton CardView Principal para realizar Operaciones -->
+    <style name="btnMainCv">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="cardCornerRadius">20dp</item>  <!-- app:cardCornerRadius="20dp"-->
+        <item name="cardBackgroundColor">#00574B</item> <!-- app:cardBackgroundColor="@color/colorPrimary"-->
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!--  Boton CardView Secundario para realizar Operaciones -->
+    <style name="btnSecundaryCv">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent</item> <!-- app:cardBackgroundColor="@color/colorAccent"-->
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <!-- EditText con Icono y Hint (Registrar) -->
+    <style name="styleForm">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textColorHint">#cdcdcd</item>
+    </style>
+
+    <!-- Boton CardView para manifestar usuarios o seleccionar el usuario de contacto -->
+    <style name="listUsersCv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">10dp</item>  <!-- cardview:cardCornerRadius = "10sp" -->
+        <item name="cardBackgroundColor">#4d8db9</item>  <!-- cardview:cardBackgroundColor = "@color/colorPrimaryDark" -->  <!-- @color/secondaryColor -->
+    </style>
+
+    <!-- Elemento CardView para los Mensajes Emisor y Receptor dentro de la actividad Chat -->
+    <style name="messageUserName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+<!-- Estilo de Activities LinearLayout Vertical en forma de formulario (Registrar) -->
+    <style name="appThemeActivity.AppStyleForm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="appThemeLightActivity.AppStyleDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+
+</resources>
