@@ -1,38 +1,33 @@
 {
   "project_info": {
-    "project_number": "752672416493",
-    "firebase_url": "https://upmhrth.firebaseio.com",
-    "project_id": "upmhrth-ea854",
-    "storage_bucket": "upmhrth-ea854.appspot.com"
+    "project_number": "700380707815",
+    "project_id": "upmhrth-e3ddd",
+    "storage_bucket": "upmhrth-e3ddd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:752672416493:android:9d92b0bd281ecd1a7022e4",
+        "mobilesdk_app_id": "1:700380707815:android:64b2a7cc8fd6de40731b42",
         "android_client_info": {
           "package_name": "com.example.upmhrth"
         }
       },
       "oauth_client": [
         {
-          "client_id": "752672416493-442bemdl3c3n26a34bqqp473g8bli3ia.apps.googleusercontent.com",
-          "client_type": 3,
-          "android_info": {
-            "package_name": "com.example.upmhrth",
-            "certificate_hash": "0532711bc71582030b2c93315ab2ca8694727c10"
-          }
+          "client_id": "700380707815-to6egf4r8gar5p3c47c7nq6v7bragb46.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDRrBds2dpvQH41s8JE66QVd9wjEX8nNFk"
+          "current_key": "AIzaSyAANexdVyqndCLBhLnb9Dths5DMVjrZ7KI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "752672416493-442bemdl3c3n26a34bqqp473g8bli3ia.apps.googleusercontent.com",
+              "client_id": "700380707815-to6egf4r8gar5p3c47c7nq6v7bragb46.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
