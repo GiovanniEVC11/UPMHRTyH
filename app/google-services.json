@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "700380707815",
+    "firebase_url": "https://upmhrth-e3ddd-default-rtdb.firebaseio.com",
     "project_id": "upmhrth-e3ddd",
     "storage_bucket": "upmhrth-e3ddd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:700380707815:android:64b2a7cc8fd6de40731b42",
+        "mobilesdk_app_id": "1:700380707815:android:cecca09ca569e101731b42",
         "android_client_info": {
-          "package_name": "com.example.upmhrth"
+          "package_name": "com.gevciti.upmhrth"
         }
       },
       "oauth_client": [

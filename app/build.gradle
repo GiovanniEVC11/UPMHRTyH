@@ -5,7 +5,7 @@ android {
     compileSdkVersion 30
     //buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.upmhrth"
+        applicationId "com.gevciti.upmhrth"
         minSdkVersion 21
         multiDexEnabled true  // Se habilita por default el multidex
         targetSdkVersion 30
@@ -33,10 +33,10 @@ android {
     }
 
     compileOptions
-            {
-                sourceCompatibility JavaVersion.VERSION_1_8
-                targetCompatibility JavaVersion.VERSION_1_8
-            }
+    {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 }
 

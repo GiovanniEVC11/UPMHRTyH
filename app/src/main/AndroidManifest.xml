@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.upmhrth">
+    package="com.gevciti.upmhrth">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -17,17 +17,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ActivityControl.LoginActivity">
+        <activity android:name="com.gevciti.upmhrth.ActivityControl.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityControl.RegistrarActivity" />
-        <activity android:name=".ActivityControl.ChatActivity" />
-        <activity android:name=".MainActivity.MenuActivity" />
-        <activity android:name=".ActivityControl.AppActivity"></activity>
-        <activity android:name=".ActivityControl.PerfilActivity" />
+        <activity android:name="com.gevciti.upmhrth.ActivityControl.RegistrarActivity" />
+        <activity android:name="com.gevciti.upmhrth.ActivityControl.ChatActivity" />
+        <activity android:name="com.gevciti.upmhrth.MainActivity.MenuActivity" />
+        <activity android:name="com.gevciti.upmhrth.ActivityControl.AppActivity"></activity>
+        <activity android:name="com.gevciti.upmhrth.ActivityControl.PerfilActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
